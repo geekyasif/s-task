@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .navbar {
+            color: red;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid black;
+            padding: 2px;
+        }
+
+    
+
+        .container {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            background-color: red;
+
+        }
+
+        .articles-container {
+            width: 70%;
+            background-color: white;
+
+
+        }
+
+        .articles-sidebar {
+            width: 30%;
+            background-color: yellow;
+            padding: 20px;
+        }
+
+
+        .articles-row {
+            display: flex;
+            padding: 10px;
+        }
+
+        .article {
+            margin: 2px;
+            padding: 10px;
+        }
+
+        .date {
+            font-size: 10px;
+        }
+
+        .article-heading {
+            color: red;
+        }
+
+        .article-description {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            line-clamp: 2;
+            -webkit-box-orient: vertical;
+
+
+        }
+
+
+        .left-navbar{
+            display: flex;
+            align-items: center;
+        }
+
+        .brand-name{
+            margin-left: 15px;
+        }
+        .right-navbar{
+            display: flex;
+            align-items: center;
+        }
+
+        #searchInput {
+            height: 20px;
+            border: none;
+        }
+
+        .search-icon{
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+        }
+
+        .sidebar-heading{
+            font-weight: bold;
+            font-size: 30px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="main">
+
+        <div class="header">
+            <div class="navbar">
+                <div class="left-navbar">
+                    <img src="hamburger.png" width="20" height="20">
+                    <h1 class="brand-name">Time</h1>
+                </div>
+                <div class="right-navbar">
+                    <img class="search-icon" src="search.png">
+                    <input type="text" name="" id="searchInput" placeholder="Search...">
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="articles-container">
+                <h1>Features Voices / Latest News</h1>
+                <div class="articles-row">
+                    <div class="first-articles-row" id="first-articles-row">
+
+                    </div>
+                    <div class="second-articles-row" id="second-articles-row">
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="articles-sidebar">
+                <h4 class="sidebar-heading">LATEST STORIES</h4>
+                <div class="sidebar-articles-container" id="sidebar-articles-container">
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
