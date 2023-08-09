@@ -1,0 +1,55 @@
+{
+    "status": "ok",
+    "totalResults": 6,
+    "articles": [
+      {
+        "title": "New Discovery in Space Exploration",
+        "description": "Scientists have made a groundbreaking discovery in space that could revolutionize our understanding of the universe.",
+        "author": "John Scientist",
+        "publishedAt": "2023-08-09T10:00:00Z",
+        "url": "https://example.com/article1",
+        "urlToImage": "https://example.com/images/article1.jpg"
+      },
+      {
+        "title": "Tech Company Unveils Next-Gen Smartphone",
+        "description": "XYZ Tech has unveiled its latest smartphone model, boasting cutting-edge features and advanced AI capabilities.",
+        "author": "Sarah TechEnthusiast",
+        "publishedAt": "2023-08-08T15:30:00Z",
+        "url": "https://example.com/article2",
+        "urlToImage": "https://example.com/images/article2.jpg"
+      },
+      {
+        "title": "Health Study Reveals Surprising Benefits of Yoga",
+        "description": "A recent health study has shown that practicing yoga regularly can have unexpected positive effects on mental and physical well-being.",
+        "author": "Anna Wellness",
+        "publishedAt": "2023-08-07T09:45:00Z",
+        "url": "https://example.com/article3",
+        "urlToImage": "https://example.com/images/article3.jpg"
+      },
+      {
+        "title": "World Travel Expo Brings Global Destinations Closer",
+        "description": "The World Travel Expo is set to showcase a diverse array of travel destinations, providing a glimpse into cultures from around the world.",
+        "author": "Traveler GlobeTrotter",
+        "publishedAt": "2023-08-06T14:15:00Z",
+        "url": "https://example.com/article4",
+        "urlToImage": "https://example.com/images/article4.jpg"
+      },
+      {
+        "title": "New Research Breaks Ground in Renewable Energy",
+        "description": "Researchers have achieved a significant breakthrough in renewable energy technology, paving the way for more efficient and sustainable power sources.",
+        "author": "Alex GreenTech",
+        "publishedAt": "2023-08-05T11:20:00Z",
+        "url": "https://example.com/article5",
+        "urlToImage": "https://example.com/images/article5.jpg"
+      },
+      {
+        "title": "Art Exhibition Showcases Emerging Talents",
+        "description": "An upcoming art exhibition will feature the works of talented emerging artists, offering a fresh perspective on contemporary art.",
+        "author": "Eva ArtCurator",
+        "publishedAt": "2023-08-04T16:00:00Z",
+        "url": "https://example.com/article6",
+        "urlToImage": "https://example.com/images/article6.jpg"
+      }
+    ]
+  }
+  
