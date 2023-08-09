@@ -1,5 +1,6 @@
  const fetchData = async () => {
-    const res = await fetch("https://newsapi.org/v2/everything?q=tesla&from=2023-07-09&sortBy=publishedAt&apiKey=ac258abf3796495ca9d679cb402584fb")
+    // const res = await fetch("https://newsapi.org/v2/everything?q=tesla&from=2023-07-09&sortBy=publishedAt&apiKey=")
+    const res = await fetch("https://raw.githubusercontent.com/geekyasif/s-task/main/news_data.json")
     const data = await res?.json()
     const articles = data?.articles
     displayDataToHtml(articles)
