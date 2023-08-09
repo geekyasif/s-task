@@ -1,7 +1,7 @@
 (async () => {
     const res = await fetch("https://newsapi.org/v2/everything?q=tesla&from=2023-07-09&sortBy=publishedAt&apiKey=ac258abf3796495ca9d679cb402584fb")
     const data = await res.json()
-    const articles = data.articles.splice(94)
+    const articles = data.articles
     displayDataToHtml(articles)
 })()
 
